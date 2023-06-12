@@ -1,17 +1,18 @@
 @import url("https://fonts.googleapis.com/css?family=DM+Sans:400,500,700&display=swap");
 
+
 * {
   box-sizing: border-box;
 }
 
-html, body {
+#carousel {
   margin: 0;
   padding: 0;
   width: 100%;
-  height: 100%;
+  height: 400px;
 }
 
-body {
+#carousel body {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -123,7 +124,7 @@ img {
   width: 100%;
 }
 
-.subtitlecarousel, .time {
+.subtitle, .time {
   font-size: 12px;
   line-height: 16px;
   color: #c6c5c6;
