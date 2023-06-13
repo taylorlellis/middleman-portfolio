@@ -110,9 +110,9 @@ img {
 
 .player {
   background-color: #fff;
-  border-radius: 8px;
-  min-width: 600px;
-  padding: 16px 10px;
+  border-radius: 14px;
+  min-width: 731px;
+  padding: 20px 9px;
 }
 
 .upper-part {
@@ -120,8 +120,8 @@ img {
   display: flex;
   align-items: center;
   margin-bottom: 12px;
-  height: 90px;
-  overflow: hidden;
+  height: 100px;
+  overflow: overlay;
 }
 
 .play-icon{ margin-right: 10px; }
@@ -177,8 +177,8 @@ img {
 .info-area {
   width: 100%;
   position: absolute;
-  top: 0;
-  left: 10px;
+  top: -8px;
+  left: 8px;
   transition: transform .4s ease-in;
 }
 
