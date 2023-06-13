@@ -12,15 +12,17 @@ video {
   height: auto;
   object-fit: cover;
   border-radius: 20px;
+  box-shadow: 16px -10px 21px 4px rgba(81, 81, 81, 0.47);
 }
 
 
 .video-containerwatchlist {
-  width: 471px;
-  height: 280px;
+  width: 520px;
+  height: 317px;
   overflow: hidden;
   position: absolute;
-  top: 33px;
+  top: 0px;
+  left: -14px;
 }
 
 .video-watchlist {
@@ -31,4 +33,5 @@ video {
   left: -1px;
   top: 0px;
   border-radius: 9px;
+  box-shadow: 16px -10px 21px 4px rgba(81, 81, 81, 0.47);
 }
