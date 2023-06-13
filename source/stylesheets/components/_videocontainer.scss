@@ -1,9 +1,15 @@
 .video-container {
   width: 100%;
-  max-width: 500px;
+  max-width: 600px;
+  position: inherit;
+  left: -52px;
+  top: 30px;
+
 }
+
 
 video {
   width: 100%;
   height: auto;
+  object-fit: cover;
 }
