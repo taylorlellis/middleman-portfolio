@@ -262,7 +262,7 @@ img {
 
 .verifibutton {
   position: absolute;
-  right: 210px;
+  right: 233px;
   top: 336px;
   border: 2px solid #ffffff; /* Set the border width, style, and color */
   padding: 2px 12px;
@@ -274,11 +274,33 @@ img {
 
 .luxifibutton {
   position: absolute;
-  right: 210px;
+  right: 237px;
   top: 345px;
   border: 2px solid #ffffff; /* Set the border width, style, and color */
   padding: 2px 12px;
   color: #ffffff;
   border-radius: 30px;
   text-decoration: none;
+}
+
+.githublinkluxifi {
+  position: relative;
+  left: 254px;
+  bottom: -339px;
+  font-size: 29px;
+}
+
+
+.githublinkwatchlist {
+  position: relative;
+  left: 255px;
+  bottom: -329px;
+  font-size: 29px;
+}
+
+.githublinkverifi {
+  position: relative;
+  left: 255px;
+  bottom: -4px;
+  font-size: 29px;
 }
