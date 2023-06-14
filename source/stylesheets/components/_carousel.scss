@@ -112,7 +112,8 @@ img {
   background-color: #fff;
   border-radius: 14px;
   min-width: 731px;
-  padding: 20px 9px;
+  padding: 16px 9px;
+  max-height: 134px;
 }
 
 .upper-part {
@@ -178,7 +179,7 @@ img {
 .info-area {
   width: 100%;
   position: absolute;
-  top: -8px;
+  top: -15px;
   left: 8px;
   transition: transform .4s ease-in;
 }
