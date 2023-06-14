@@ -235,7 +235,7 @@ img {
 }
 
 .blockcarouselwatchlist {
-	width: 193px;
+	width: 272px;
 	height: 2px;
 	background: #e55d87; /* Old browsers */
 	background: -moz-linear-gradient(-45deg, #e55d87 0%, #5fc3e4 100%);
@@ -245,7 +245,7 @@ img {
   top: 175px;
 }
 .blockcarouselluxifi {
-  width: 193px;
+  width: 170px;
 	height: 2px;
 	background: #e55d87; /* Old browsers */
 	background: -moz-linear-gradient(-45deg, #e55d87 0%, #5fc3e4 100%);
@@ -264,6 +264,18 @@ img {
   position: absolute;
   right: 210px;
   top: 336px;
+  border: 2px solid #ffffff; /* Set the border width, style, and color */
+  padding: 2px 12px;
+  color: #ffffff;
+  border-radius: 30px;
+  text-decoration: none;
+}
+
+
+.luxifibutton {
+  position: absolute;
+  right: 210px;
+  top: 345px;
   border: 2px solid #ffffff; /* Set the border width, style, and color */
   padding: 2px 12px;
   color: #ffffff;
