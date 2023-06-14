@@ -131,12 +131,16 @@ img {
   width: calc(100% - 32px);
   display: block;
   margin: 12px;
+  position:inherit;
+  right: 12px;
 }
 
 .song-info .title {
   color: #403d40;
   font-size: 14px;
   line-height: 24px;
+  position: inherit;
+  right: 13px;
 }
 
 .sub-line {
@@ -144,6 +148,7 @@ img {
   justify-content: space-between;
   width: 100%;
   position: relative;
+  top: -14px;
 }
 
 .subtitle, .time {
@@ -187,23 +192,59 @@ img {
 }
 
 #item-3:checked ~ .player #test  {
-  transform: translateY(-110px);
+  transform: translateY(-150px);
 }
 
 .verifiinfo {
   position: relative;
+  top: -2;
 }
 
 .watchlistinfo {
   position: relative;
+  top: -2;
 }
 
 .luxifiinfo {
   position: relative;
+  top: -2;
 }
 
 .role {
   position: absolute;
-  top: -2px;
-  right: 25px;
+  top: 1px;
+  right: -5px;
+  font-size: 18px;
+}
+
+.blockcarousel {
+	width: 193px;
+	height: 2px;
+	background: #e55d87; /* Old browsers */
+	background: -moz-linear-gradient(-45deg, #e55d87 0%, #5fc3e4 100%);
+	background: -webkit-linear-gradient(-45deg, #e55d87 0%, #5fc3e4 100%);
+	background: linear-gradient(135deg, #e55d87 0%, #5fc3e4 100%);
+  position: absolute;
+  top: 44px;
+}
+
+.blockcarouselwatchlist {
+	width: 193px;
+	height: 2px;
+	background: #e55d87; /* Old browsers */
+	background: -moz-linear-gradient(-45deg, #e55d87 0%, #5fc3e4 100%);
+	background: -webkit-linear-gradient(-45deg, #e55d87 0%, #5fc3e4 100%);
+	background: linear-gradient(135deg, #e55d87 0%, #5fc3e4 100%);
+  position: absolute;
+  top: 175px;
+}
+.blockcarouselluxifi {
+  width: 193px;
+	height: 2px;
+	background: #e55d87; /* Old browsers */
+	background: -moz-linear-gradient(-45deg, #e55d87 0%, #5fc3e4 100%);
+	background: -webkit-linear-gradient(-45deg, #e55d87 0%, #5fc3e4 100%);
+	background: linear-gradient(135deg, #e55d87 0%, #5fc3e4 100%);
+  position: absolute;
+  top: 258px;
 }
