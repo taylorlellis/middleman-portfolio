@@ -188,11 +188,11 @@ img {
 }
 
 #item-2:checked ~ .player #test  {
-  transform: translateY(-110px);
+  transform: translateY(-128px);
 }
 
 #item-3:checked ~ .player #test  {
-  transform: translateY(-150px);
+  transform: translateY(-240px);
 }
 
 .verifiinfo {
@@ -246,5 +246,10 @@ img {
 	background: -webkit-linear-gradient(-45deg, #e55d87 0%, #5fc3e4 100%);
 	background: linear-gradient(135deg, #e55d87 0%, #5fc3e4 100%);
   position: absolute;
-  top: 258px;
+  top: 281px;
+}
+
+.gaplol {
+  border: 10px;
+  margin: 36px;
 }
