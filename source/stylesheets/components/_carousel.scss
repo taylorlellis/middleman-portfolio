@@ -45,6 +45,7 @@ input[type=radio] {
   margin: auto;
   transition: transform .4s ease;
   cursor: pointer;
+  bottom: 6px;
 }
 
 .cardcarouselluxifi {
@@ -56,6 +57,7 @@ input[type=radio] {
   margin: auto;
   transition: transform .4s ease;
   cursor: pointer;
+  bottom: 15px;
 }
 
 .containercarousel {
@@ -114,6 +116,9 @@ img {
   min-width: 731px;
   padding: 16px 9px;
   max-height: 134px;
+  margin-top: 20px;
+  position: relative;
+  bottom: -10px;
 }
 
 .upper-part {
@@ -258,6 +263,10 @@ img {
 .verifibutton {
   position: absolute;
   right: 210px;
-  top: 324px;
-
+  top: 329px;
+  border: 2px solid #3b3b3b; /* Set the border width, style, and color */
+  padding: 2px 12px;
+  color: #3b3b3b;
+  border-radius: 30px;
+  text-decoration: none;
 }
