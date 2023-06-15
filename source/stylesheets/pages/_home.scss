@@ -583,9 +583,9 @@ opacity: 0;
 ********************************************************************* */
 
 .contact-form {
-  background: -moz-linear-gradient(-45deg, #e55d87 0%, #5fc3e4 100%);
-	background: -webkit-linear-gradient(-45deg, #e55d87 0%, #5fc3e4 100%);
-	background: linear-gradient(135deg, #e55d87 0%, #5fc3e4 100%);
+  background: -moz-linear-gradient(-45deg, #C179A1 0%, #5fc3e4 100%);
+	background: -webkit-linear-gradient(-45deg, #C179A1 0%, #5fc3e4 100%);
+	background: linear-gradient(135deg, #C179A1 0%, #5fc3e4 100%);
   padding-right: 26px;
   padding-left: 26px;
   padding-top: 12px;
@@ -602,8 +602,9 @@ input[type="email"], input[type="number"], input[type="search"], input[type="tex
 	border: none;
 	box-shadow: none;
 	box-sizing: border-box;
-	border-radius: 0;
+	border-radius: 10px;
 	outline: none;
+
 }
 textarea {
 	min-height: 250px;
@@ -621,15 +622,19 @@ input[type="submit"] {
 	text-transform: uppercase;
 	text-decoration: none;
 	white-space: nowrap;
-	background: #5fc3e4;
-	border-radius: 0px;
+	background: none;
+	border-radius: 10px;
 	border: 0;
 	cursor: pointer;
 	box-sizing: border-box;
+  border: 2px solid #ffffff;
+  transition: border-color 0.3s ease;
 }
 input[type="submit"]:hover {
-	background: #e55d87;
+	border: 2px solid #C179A1;
 	text-decoration: none;
+  color: #C179A1;
+  transition: 1;
 }
 /* Footer Section
 ********************************************************************* */
