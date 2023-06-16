@@ -1,8 +1,6 @@
 .video-container {
   width: 100%;
-  max-width: 600px;
-  position: inherit;
-  left: -61px;
+  max-width: 100%;
 
 }
 
@@ -17,12 +15,10 @@ video {
 
 
 .video-containerwatchlist {
-  width: 520px;
-  height: 317px;
+  width: 100%;
+  height: 100%;
   overflow: hidden;
   position: absolute;
-  top: 8px;
-  left: -14px;
 }
 
 .video-watchlist {
