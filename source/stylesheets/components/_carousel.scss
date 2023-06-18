@@ -251,17 +251,42 @@ img {
   transition: transform .4s ease-in;
 }
 
+@media (min-width: 992px) {
 #item-2:checked ~ .player #test {
   transform: translateY(0);
+  }
 }
-
+@media (min-width: 992px) {
 #item-2:checked ~ .player #test  {
   transform: translateY(-128px);
+  }
 }
 
+@media (min-width: 992px) {
 #item-3:checked ~ .player #test  {
   transform: translateY(-240px);
+  }
 }
+
+
+@media (max-width: 767px) {
+#item-2:checked ~ .player #test {
+  transform: translateY(0);
+  }
+}
+
+@media (max-width: 767px) {
+#item-2:checked ~ .player #test  {
+  transform: translateY(-230px);
+  }
+}
+
+@media (max-width: 767px) {
+#item-3:checked ~ .player #test  {
+  transform: translateY(-380px);
+  }
+}
+
 
 .verifiinfo {
   position: relative;
@@ -278,6 +303,23 @@ img {
   top: -2;
 }
 
+.verifilinks {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.watchlistlinks {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.luxifilinks {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
 .role {
   position: absolute;
   top: 1px;
@@ -294,9 +336,6 @@ img {
 }
 
 .verifibutton {
-  position: absolute;
-  right: 233px;
-  top: 336px;
   border: 2px solid #ffffff; /* Set the border width, style, and color */
   padding: 2px 12px;
   color: #ffffff;
@@ -306,9 +345,6 @@ img {
 
 
 .luxifibutton {
-  position: absolute;
-  right: 237px;
-  top: 345px;
   border: 2px solid #ffffff; /* Set the border width, style, and color */
   padding: 2px 12px;
   color: #ffffff;
@@ -317,23 +353,14 @@ img {
 }
 
 .githublinkluxifi {
-  position: relative;
-  left: 254px;
-  bottom: -339px;
   font-size: 29px;
 }
 
 
 .githublinkwatchlist {
-  position: relative;
-  left: 255px;
-  bottom: -329px;
   font-size: 29px;
 }
 
 .githublinkverifi {
-  position: relative;
-  left: 255px;
-  bottom: -4px;
   font-size: 29px;
 }
